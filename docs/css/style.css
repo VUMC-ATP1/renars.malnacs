@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dadada;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    margin: 100px 0 10px 0;
+    text-align: center;
+}
+
+h2 {
+    width: 50px;
+    border-bottom: solid 4px #ffd800;
+    margin-top: 50px;
+}
+
+a {
+    color: #ffd800;
+}
+
+hr {
+    width: 20%;
+    border: 2px solid #dadada;
+    border-radius: 100px;
+}
+
+#tagline {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#content {
+    width: 70%;
+    margin: 50px auto 20px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 30px;
+}
+
+.aboutLeft {
+    float: left;
+    width: 70%;
+    padding: 0 20px 0 0;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.aboutRight {
+    float: right;
+    width: 30%;
+    padding: 0 0 0 20px;
+}
+
+.aboutRight img {
+    max-width: 100%;
+    height: auto;
+    border: solid 6px #ffd800;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mainOne {
+    float: left;
+    width: 50%;
+    padding: 0 30px 0 0;
+}
+
+.mainTwo,
+.mainThree {
+    float: left;
+    width: 25%;
+    padding: 0 0 0 30px;
+}
+
+ul {
+    padding-left: 20px
+}
+
+ul li {
+    margin-bottom: 10px
+}
+
+span {
+    color: #858585;
+}
+
+.footer p {
+    margin: 30px 0 30px 0;
+    text-align: center;
+    color: #757575;
+}
